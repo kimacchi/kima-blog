@@ -170,181 +170,28 @@
   }
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (max-width: 320px){
   .container{
-    background-image: url("../public/pictures/background_big.png");
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: "Oxygen";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .nav{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      h1{
-        font-family: "Work Sans";
-        font-weight: 400;
-        letter-spacing: 3px;
-      }
-      .links{
-        display: flex;
-        width: 8vw;
-        justify-content: space-between;
-        div{
-          cursor: pointer;
-        }
-      }
-      margin-bottom: 1vw;
-    }
     .posts{
-      display: flex;
-      flex-direction: row;
-      // height: 472px;
-      // width: 100%;
-      .aligner{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 0.8vw;
-      }
       .main_post{
-        width: 507px;
-        height: 472px;
-        background-image: url("../public/pictures/cyberpunk.png");
-        .overlay{
-          width: 100%;
-          height: 100%;
-          background: rgba(16, 23, 27, 0.56);
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-end;
-          padding-left: 1vw;
-          transition: cubic-bezier(1, 0, 0, 1) 0.3s;
-          h1{
-            padding: 0;
-            margin: 0;
-            font-size: 24px;
-            width: 80%;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
-          }
-          p{
-            padding: 0;
-            margin: 0;
-            margin-bottom: 2vw;
-            margin-top: 2vw;
-            font-size: 12px;
-            color: #ccc;
-          }
-        }
-        .overlay:hover{
-          background: rgba(16, 23, 27, 0.45);
-          cursor: pointer;
-        }
+        width: 287px;
+        height: 268px;
       }
-      .secondary_post_1{
-        width: 248px;
-        height: 230px;
-        background-image: url("../public/pictures/punpun.png");
-        .overlay{
-          width: 100%;
-          height: 100%;
-          background: rgba(16, 23, 27, 0.56);
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-end;
-          padding-left: 1vw;
-          transition: cubic-bezier(1, 0, 0, 1) 0.3s;
-          h1{
-            padding: 0;
-            margin: 0;
-            font-size: 15px;
-            width: 90%;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
-          }
-          p{
-            padding: 0;
-            margin: 0;
-            font-size: 9px;
-            margin-bottom: 1vw;
-            margin-top: 1.5vw;
-          }
+      .aligner{
+        .secondary_post_1{
+          width: 287px;
+          height: 268px;
         }
-        .overlay:hover{
-          background: rgba(16, 23, 27, 0.45);
-          cursor: pointer;
+        .secondary_post_2{
+          width: 287px;
+          height: 268px;
         }
-      }
-      .secondary_post_2{
-        width: 248px;
-        height: 230px;
-        background-image: url("../public/pictures/csm.png");
-        .overlay{
-          width: 100%;
-          height: 100%;
-          background: rgba(16, 23, 27, 0.56);
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-end;
-          padding-left: 1vw;
-          transition: cubic-bezier(1, 0, 0, 1) 0.3s;
-          h1{
-            padding: 0;
-            margin: 0;
-            font-size: 15px;
-            width: 90%;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
-          }
-          p{
-            padding: 0;
-            margin: 0;
-            font-size: 9px;
-            margin-bottom: 1vw;
-            margin-top: 1.5vw;
-          }
-        }
-        .overlay:hover{
-          background: rgba(16, 23, 27, 0.45);
-          cursor: pointer;
-        }
-      }
-    }
-    .buttons{
-      display: flex;
-      width: 20vw;
-      margin-top: 2.5vw;
-      justify-content: space-between;
-      .button{
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 94px;
-        justify-content: space-between;
-        transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
-        padding: 7px 5px 5px 7px;
-  
-        h1{
-          padding: 0;
-          margin: 0;
-          font-size: 16px;
-        }
-      }
-      .button:hover{
-        scale: 1.07;
-        background-color: rgba(0, 0, 0, 0.1);
       }
     }
   }
 }
 
-@media only screen and (min-width: 320px){
+@media only screen and (max-width: 700px){
   .container{
     .nav{
       display: flex;
@@ -429,27 +276,6 @@
         }
       }
       .button:hover{
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 320px){
-  .container{
-    .posts{
-      .main_post{
-        width: 287px;
-        height: 268px;
-      }
-      .aligner{
-        .secondary_post_1{
-          width: 287px;
-          height: 268px;
-        }
-        .secondary_post_2{
-          width: 287px;
-          height: 268px;
-        }
       }
     }
   }
